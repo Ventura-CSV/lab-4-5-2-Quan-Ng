@@ -10,6 +10,16 @@ def main():
     ########################################
     """
 
+    while total <= 100:
+            rand_num = random.randint(1, 20)
+            numbers.append(rand_num)
+            total += rand_num
+            
+    if total > 100:
+        last_number = numbers.pop()
+        total -= last_number
+
+
     print(f'The random values are {numbers}')
     print(f'The total is {total}')
 
