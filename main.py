@@ -10,7 +10,7 @@ def main():
     ########################################
     """
 
-    while total <= 100:
+    while total < 100:
             rand_num = random.randint(1, 20)
             numbers.append(rand_num)
             total += rand_num
